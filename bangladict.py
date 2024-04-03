@@ -111,7 +111,7 @@ enterwordEntry.place(x=60,y=75,width=360, height=67)
 #enterwordEntry.focus_set()
 
 #search button
-searchimage=PhotoImage(file='magnifying-glass.png')
+searchimage=PhotoImage(file='search.png')
 searchbutton=Button(q,image=searchimage,bd=0,bg='#333333',cursor='hand2',activebackground='#333333',command=search)
 searchbutton.place(x=430,y=74)
 
@@ -133,12 +133,12 @@ speakerbutton2=Button(q,image=speakerimage2,bd=0,bg='#333333',cursor='hand2',act
 speakerbutton2.place(x=170,y=430)
 
 #cancel button
-cancelimage=PhotoImage(file='reject (1).png')
+cancelimage=PhotoImage(file='cancel.png')
 cancelbutton=Button(q,image=cancelimage,bd=0,bg='#333333',cursor='hand2',activebackground='#333333',command=clear)
 cancelbutton.place(x=260,y=430)
 
 #exit button
-exitimage=PhotoImage(file='sign-out (1).png')
+exitimage=PhotoImage(file='back.png')
 exitbutton=Button(q,image=exitimage,bd=0,bg='#333333',cursor='hand2',activebackground='#333333',command=dictfrontpage)
 exitbutton.place(x=350,y=432)
 
