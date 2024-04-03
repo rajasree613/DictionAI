@@ -25,7 +25,7 @@ def fp():
 
 
 
-    img_btn=Image.open(r"engdict-removebg-preview.png")
+    img_btn=Image.open(r"engdictionary.png")
     img_btn=img_btn.resize((156,156),Image.Resampling.LANCZOS)
     img=ImageTk.PhotoImage(img_btn)
 
@@ -35,7 +35,7 @@ def fp():
     imgb1.place(x=125,y=150,width=180,height=180)
 
 
-    img_btn1=Image.open(r"bangladict-removebg-preview.png")
+    img_btn1=Image.open(r"bangladictionary.png")
     img_btn1=img_btn1.resize((156,156),Image.Resampling.LANCZOS)
     img1=ImageTk.PhotoImage(img_btn1)
 
