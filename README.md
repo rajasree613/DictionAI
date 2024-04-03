@@ -1,0 +1,1 @@
+# DictionAI_Speaking_Dictionary
